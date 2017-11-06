@@ -32,7 +32,7 @@ void     LCD_IO_Init(void)
 	Chip_GPIO_SetPinDIROutput(LCD_D5);
 	Chip_GPIO_SetPinDIROutput(LCD_D6);
 	Chip_GPIO_SetPinDIROutput(LCD_D7);
-	Chip_GPIO_SetPinDIROutput(LCD_D8);
+	/*Chip_GPIO_SetPinDIROutput(LCD_D8);
 	Chip_GPIO_SetPinDIROutput(LCD_D9);
 	Chip_GPIO_SetPinDIROutput(LCD_D10);
 	Chip_GPIO_SetPinDIROutput(LCD_D11);
@@ -40,7 +40,7 @@ void     LCD_IO_Init(void)
 	Chip_GPIO_SetPinDIROutput(LCD_D13);
 	Chip_GPIO_SetPinDIROutput(LCD_D14);
 	Chip_GPIO_SetPinDIROutput(LCD_D15);
-
+*/
 	Chip_GPIO_SetPinState(LCD_RST,0);
 	Chip_GPIO_SetPinState(LCD_CS,1);//IGNORA TODO, PARA MANDAR COMANDOS Y DATOS PONER CS EN 0
 	Chip_GPIO_SetPinState(LCD_RS,1);
